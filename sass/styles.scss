@@ -1,5 +1,2 @@
-$dark : #333333;
-$light : #44017f;
-body{
-	background-color: $light;
-}
+@import "partials/settings";
+@import "partials/foundation";
