@@ -14,5 +14,9 @@ Have a single workflow that
 
 3. `bower install`
 
-4. Start developing. Happy coding.
+## Start developing.
+
+The default gulp task will run `connect`, `sass` and `watch`, so all you need to do is run
+
+`gulp` ind your document root. This will compile all sass files in `sass/` into source css and copy it to `css/` and watch for changes. Enjoy!
 
